@@ -25,7 +25,29 @@
 .estilo_form fieldset iframe{
 
     position: absolute;
-    margin-left: -556px;
+    margin-left: -440px;
     margin-top: 58px;
+}
+
+.estilo_form fieldset button.btn_reset{
+
+    position: absolute;
+    margin-top: 222px;
+    margin-left: -694px;
+}
+
+.estilo_form fieldset button.btn_submit{
+
+    position: absolute;
+    margin-top: 222px;
+    margin-left: -633px;
+}
+
+.estilo_form fieldset address{
+
+    position: absolute;
+    margin-top: 247px;
+    margin-left: 255px;
+    font-weight: bold;
 }
 
