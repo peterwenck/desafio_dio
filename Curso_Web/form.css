@@ -1,0 +1,31 @@
+.estilo_form fieldset legend, label{
+
+    font-weight: bold;
+}
+
+.estilo_form fieldset{
+
+    height: 400px;
+}
+
+.estilo_form fieldset textarea.textareamsg{
+
+    position: absolute;
+    margin-left: -695px;
+    margin-top: 58px;
+}
+
+.estilo_form fieldset label.label_mensagem{
+
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -695px;
+}
+
+.estilo_form fieldset iframe{
+
+    position: absolute;
+    margin-left: -556px;
+    margin-top: 58px;
+}
+

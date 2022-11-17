@@ -22,10 +22,27 @@ body {
     width: 15%;
     background-color: aqua;
     padding: 10px 20px 0px;
+    list-style: none;
 }
+
+.menu ul{
+
+    margin-top: 288px;
+    
+}
+
+.menu ul li a{
+
+    border-radius: 3px;
+    border: 1px solid cadetblue;
+    background-color: aqua;
+    
+}
+
 .header {
-    background-color: rgb(5, 108, 108);
+    background-image: url(modificado2.jpg);
     min-height: 150px;
+    background-repeat: no-repeat;
 }
 .content {
     
@@ -41,77 +58,8 @@ body {
     min-height: 150px;
 }
 
-.label {
-
-    font-weight: bold;
-}
-
-.label_mensagem {
-    position: absolute;
-    font-weight: bold;
-    top: 384px;
-    margin-left: -43px;
-}
-
-.label_email {
-    position: absolute;
-    font-weight: bold;
-    margin-left: 193px;
-
-}
-.botao_submit {
-    
-    position: absolute;
-    top: 10px;
-    margin-bottom: 10px;
-
-}
-
-.fieldset {
-
-    height: 400px;
-}
-
-.textareamsg {
-
-    position: absolute;
-    margin-top: 134px;
-    margin-left: -41px;
-    width: 253px;
-}
-
 .title_form{
 
     text-align: center;
 }
 
-.input{
-
-    position: absolute;
-    top: 294px;
-    margin-left: -46px;
-}
-
-
-.input_email{
-
-    position: absolute;
-    top: 294px;
-    margin-left: 193px;
-}
-
-.label_assunto{
-
-    position: absolute;
-    top: 331px;
-    margin-left: -44px;
-    font-weight: bold;
-}
-
-.input_assunto{
-
-    position: absolute;
-    top: 354px;
-    margin-left: -44px;
-    width: 405px;
-}

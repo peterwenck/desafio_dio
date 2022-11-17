@@ -1,0 +1,30 @@
+.estilo_tabela caption {
+
+    text-align: center;
+    font-weight: bold;
+}
+
+.estilo_tabela thead tr td{
+
+    font-weight: bold;
+    background-color: cadetblue;
+    height: 10px;
+}
+
+.estilo_tabela tbody td{
+
+    font-weight: bold;
+    width: 85px;
+    text-align: center;
+}
+
+.estilo_tabela {
+
+    margin-left:250px ;
+    margin-top: 120px;
+}
+
+.estilo_tabela tr:nth-child(even){
+
+    background-color: cadetblue;
+}
