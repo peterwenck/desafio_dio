@@ -42,7 +42,7 @@ body {
 .header {
     background-image: url(modificado2.jpg);
     min-height: 150px;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 .content {
     
@@ -61,5 +61,28 @@ body {
 .title_form{
 
     text-align: center;
+}
+
+.format_text p, address{
+
+    color: white;
+}
+
+.estilo_descricao{
+
+    position: absolute;
+    margin-top: 40px;
+}
+
+.estilo_form fieldset p.telefone{
+
+    margin-top: 284px;
+    margin-left: 254px;
+}
+
+.estilo_form fieldset p.telefone_zap{
+
+    margin-top: -14px;
+    margin-left: 256px;
 }
 
