@@ -1,36 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
 
 body{
 
     background: black;
-}
-
-p{
-    color: white;
-}
-
-footer{
-
-    position: absolute;
+    position: relative;
     width: 1440px;
-    height: 170px;
-    left: 0px;
-    top: 0px;
-    box-sizing: border-box;
-    border-top: 1px solid #33a8db;
+    height: 2491px;
+    left: 709px;
+   
 }
 
 .banner{
 
-    position: absolute;
-    border-bottom: 1px solid #33a8db;
     box-sizing: border-box;
-    background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(49,168,221,0) 100%) url(assets/images/banner.png);
+
+    position: absolute;
     width: 1440px;
     height: 605px;
     left: 0px;
     top: 0px;
+    background: url(assets/images/banner.png);
+    border-bottom: 1px solid #33A8DB;
 }
+
 
 .banner-content{
 
@@ -39,133 +35,100 @@ footer{
     align-items: center;
     padding: 0px;
     gap: 16px;
+
     position: absolute;
-    left: 465px;
-    top: 56px;
     width: 510px;
     height: 393px;
+    left: 465px;
+    top: 56px;
+
+}
+
+p{
+
+    color: white;
+}
+
+footer{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1440px;
+    height: 170px;
+    left: 0px;
+    top: 2321px;
+    
+
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    border-top: 1px solid #33A8DB;
 }
 
 .banner-content h1{
 
     width: 434px;
     height: 47px;
+    left: 38px;
+
     font-family: 'Raleway';
+    font-style: normal;
     font-weight: 900;
     font-size: 40px;
     line-height: 47px;
-    background: linear-gradient(180deg, #33a8db 0%, #1472b7 100%);
+    /* identical to box height */
+
+
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
+
+
+    /* Inside auto layout */
+
     flex: none;
     order: 1;
     flex-grow: 0;
-
 }
 
 .banner-content p{
 
     width: 510px;
     height: 46px;
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
     flex: none;
     order: 2;
     flex-grow: 0;
-   
 }
 
-.banner-content button{
-
-   left: calc(50% - 326px/2);
-   top: calc(50% - 57px/2 + 199px);
-   position: absolute; 
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   padding: 19px 91px;
-   gap: 31px;
-   color: #33a8db;
-   font-size: 16px;
-   font-family: 'Raleway';
-   letter-spacing: 0.21em;
-   font-weight: 900;
-   font-style: normal;
-   line-height: 19px;
-   text-align: center;
-   flex: none;
-   order: 0;
-   flex-grow: 0;
-}
-
-.dio-logo{
-
-    position: absolute;
-    width: 310px;
-    height: 44px;
-    left: 565px;
-    top: 59px;
-}
-
-footer p{
-
-    position: absolute;
-    width: 259px;
-    height: 19px;
-    left: 591px;
-    top: 113px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-}
-
-#professional-challenges p{
-
-   position: absolute;
-   width: 792px;
-   height: 76px;
-   left: 324px;
-   top: 2154px;
-   font-family: 'Raleway';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 19px;
-   text-align: center;
-}
-
-#professional-challenges img{
-
-    position: absolute;
-    top: 1685px;
-    left: 390px;
-
-}
 
 #transform-world{
 
     box-sizing: border-box;
+
     position: absolute;
     width: 1440px;
     height: 363px;
     left: 0px;
     top: 1138px;
-    border-style: solid;
     border-width: 1px 1px 1px 0px;
-    border-color: #33a8db;
+    border-style: solid;
+    border-color: #33A8DB;
     background: url(assets/images/woman-code.png);
-  
-
+    
 }
 
 #transform-world p{
@@ -175,12 +138,75 @@ footer p{
     height: 141px;
     left: 0px;
     top: 0px;
+    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
     line-height: 47px;
-    text-shadow: 3px 2px 0px #33a8db;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 3px 2px 0px #33A8DB;    
+}
+
+.dio-logo{
+
+    position: absolute;
+    width: 310px;
+    height: 44px;
+    left: 565px;
+    top: 59px;
+
+
+}
+
+#professional-challenges img{
+
+    position: absolute;
+    width: 659px;
+    height: 429px;
+    left: 390px;
+    top: 1685px;
+
+    
+}
+
+#professional-challenges p{
+
+    position: absolute;
+    width: 792px;
+    height: 76px;
+    left: 324px;
+    top: 2154px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+
+}
+
+#professional-challenges h2{
+
+    position: absolute;
+    width: 746px;
+    height: 76px;
+    left: 347px;
+    top: 1577px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.19em;
+
+    color: #33A8DB;
 }
 
 #course-content{
@@ -191,93 +217,142 @@ footer p{
     align-items: center;
     padding: 0px;
     gap: 24px;
+    
     position: absolute;
     width: 792px;
     height: 325px;
     left: 324px;
     top: 723px;
+    
+
 }
 
 #course-content h2{
 
     width: 477px;
     height: 38px;
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
+    /* identical to box height */
+
     letter-spacing: 0.19em;
-    color: #33a8db;
+
+    color: #33A8DB;
+
+
+    /* Inside auto layout */
+
     flex: none;
     order: 0;
     flex-grow: 0;
-}
-
-.modules-list .module{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 127px;
-    gap: 10px;
-    width: 535px;
-    height: 51px;
-    background: #252525;
-    border: 1 px solid #33a8db;
-    box-shadow: inset -2px 6px 4px rgba(0,0,0,0.4);
-    border-radius: 57px;
-    flex: none;
-    
-
-
-
-}
-
-.modules-list .module span{
-
-    width: 281px;
-    height: 19px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #33a8db;
-    top: 16px;
-}
-
-#professional-challenges h2{
-
-    position: absolute;
-    width: 746px;
-    height: 76px;
-    left: 347px;
-    top: 1577px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    text-align: center;
-    letter-spacing: 0.19em;
-    color: #33a8db;
 }
 
 #course-content p{
 
     width: 792px;
     height: 38px;
+    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    top: 62px;
-    position: absolute;
+    
+    color: #FFFFFF;
+
+
+ 
 }
+
+.banner-content button{
+
+    width: 234px;
+    height: 19px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.21em;
+    
+    color: #31A8DD;
+    
+    
+    
+    /* Inside auto layout */
+  
+
+
+}
+
+footer p{
+
+    position: absolute;
+    width: 259px;
+    height: 19px;
+    left: 591px;
+    top: 113px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.modules-list .module{
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 127px;
+    gap: 10px;
+    
+    width: 535px;
+    height: 51px;
+    
+    background: #252525;
+    border: 1px solid #33A8DB;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 57px;
+
+    
+    
+}
+
+.modules-list .module span{
+
+    width: 281px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #33A8DB;
+
+}
+
